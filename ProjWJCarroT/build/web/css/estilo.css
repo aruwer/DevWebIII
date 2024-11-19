@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+form{
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
