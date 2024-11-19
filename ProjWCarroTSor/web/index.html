@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Carro</title>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Preencha os campos</h1>
+        
+        <form action="viagem.jsp">
+            <label>
+                Preço combustivel:
+                <input type="text" name="n_preco" required>
+            </label>
+            
+            <label>
+                Autonomia:
+                <input type="text" name="n_autonomia" required>
+            </label>
+            
+            <label>
+                Distância:
+                <input type="text" name="n_distancia" required>
+            </label>
+            
+            <input type="submit" value="Calcular viagem">
+        </form>
+    </body>
+</html>

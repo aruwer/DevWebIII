@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    background-color: chocolate;
+    width: 40%;
+    margin: auto;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+form{
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    border-radius: 12px;
+}
